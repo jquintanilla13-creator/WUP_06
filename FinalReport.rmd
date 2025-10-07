@@ -67,10 +67,13 @@ The white people are for it with a ratio of 2 to 1. The black people are more ag
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+table2 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table2)
+colPerc(table2)
+```
 
-
-
-
+The majority of white people favor capital punishment, with 67.75% supporting it. Black people only had 47.24% and the other people had a significant value of 61.25%. The majority of black people opposed capital punishment, with a value of 52.76%. White people only opposed it by 32.25%, and other people opposed it by 38.75%.
 
 ## Inferential Results
 
