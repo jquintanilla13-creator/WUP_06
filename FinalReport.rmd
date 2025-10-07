@@ -55,6 +55,8 @@ basicCC <- ggplot(dd3,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+The white people are for it with a ratio of 2 to 1. The black people are more against it, and others seem more for it. 
+
 ## Now with LESS data (more variables give less data due to NA's) create the approate graphic displays to answer the question.
 
 
