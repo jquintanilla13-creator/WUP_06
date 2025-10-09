@@ -79,10 +79,14 @@ The majority of white people favor capital punishment, with 67.75% supporting it
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
+```{r}
+fisherXY(mydata$cappun,mydata$race,printAll = TRUE)
+```
 
-
+The P-value is 0.000017. With less data our test is telling us that white and black are statistically different. More white people are for the capital punishment, while less black people are for the capital punishment. However, between white and other, the p-value is only 0.2526. This indicates that there isn't a difference between the amount of people who favor capital punishment for white and others. They both prefer capital punishment. Lastly, the p-value between black and others is only 0.6299. This indicates that they are close. It is less than the p-value of white and others, but it is significantly not different. Black people are more against capital punishment then others. 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
